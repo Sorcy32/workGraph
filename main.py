@@ -1,3 +1,8 @@
-if '__name__' == '__main__':
-    print('заглушка')
+import database as db
+
+db.create_database()
+
+
+
+if '__name__' != '__main__':
     pass
